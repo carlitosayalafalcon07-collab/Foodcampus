@@ -27,28 +27,7 @@ Validar datos del dominio
 
 Arquitectura del proyecto
 
-El proyecto sigue el patrón Clean Architecture, dividiendo el sistema en cuatro capas principales:
-
-FoodCampus
-│
-├── Domain
-│   ├── Entities
-│   └── Extensions
-│
-├── Application
-│   ├── UseCases
-│   ├── DTOs
-│   └── Interfaces
-│
-├── Infrastructure
-│   ├── Repositories
-│   ├── DbModels
-│   └── Mappers
-│
-└── ConsoleUI
-    ├── Menus
-    └── Program.cs
-Domain
+El proyecto sigue el patrón Clean Architecture, dividiendo el sistema en cuatro capas principales
 
 Contiene:
 
